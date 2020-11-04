@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- dir- means the text diorection of alignment of the whole documnet and ltr means LEFT TO RIGHT. If er want text direction RIGHT TO LEFT (like Arabic and Hibrue) then we should write rtl. Alongside in some case we can write auto when we exactly don't know what the language should be the page. For details check MDN dir attribute. -->
+
+<head>
+  <meta charset="utf-8"> <!-- this meta tag defines that the whole documents will be encoded by UTF-8 characters. For all types of Unicode details see https://unicode-table.com . This meta should be mandatory in all pages -->
+  <meta name="description" content="BM. Zahidul Islam's, zahid's personal website"> <!-- defines description of the page like what the purpose of the page. This meta should be mandatory in all pages  -->
+  <meta name="keywords"
+    content="BM. Zahidul Islam's, zahid's date of birth, BM. Zahidul Islam's, zahid's birth place, BM. Zahidul Islam's, zahid's academic background, BM. Zahidul Islam's, zahid's parents details, BM. Zahidul Islam's, zahid's job history, BM. Zahidul Islam's, zahid's professional information, BM. Zahidul Islam's, zahid's dream">
+  <!-- defines keywords to search engines to optimize or fast/accurate search. This meta should be mandatory in all pages  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- setting the view point for all types of devices/displays so that the page fits well in all devices correctly. This meta should be mandatory in all pages.-->
+  <title>💫Zahid's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!-- A table tag. It's starting tag and in a starting tag we can use many attribute as we need. In a table tag. There should be certain tag like TABLE HEAD (inside table head we generally use <thead> tag for using a heading in bold), TABLE BODY (inside a table body there are 2 types of tags. 1.<tr> tag use to define the row numbers. that means we should use <tr> tag in a table tag 2 times if we need 2 rows. If need 3 rows then put tr tag 3 times. 2. 2nd type tag is <td> tag. Inside td tag we show table data/column. td tag always stay in tr tags.If we want to show 3 data in 3 columns in a row then we should put 3 td tags in a tr tag. If we want to show 2 or 4 data in 2 or 4 columns then we should put 2 or 4 td tags in a tr tags. For details see below "skills" table option that I wrote in my personal website.) TABLE FOOTER (didn't practise. For details see MDN website table footer). -->
+    <tr>
+      <!-- TR tags. It defines the row. TR tag number= row numbers. Example: If we put 2 tr tags then HTML should show 2 rows. And in a TR tags there must be TD or TH tags. If we do not put any TD or TH tag then HTML will not show any table data  -->
+      <td> <img src="images/zahid.png" alt="BM. Zahidul Islam's profile picture" width="200" height="210">
+        <!-- to insert just need to type img and this is a self closing tag. In this tag there will be some attribute. src= source of the image, alt= description of the image -->
+      </td>
+
+      <td>
+        <!-- Inside td tag we show table data/column. td tag always stay in tr tags.If we want to show 3 data in 3 columns in a row then we should put 3 td tags in a tr tag. If we want to show 2 or 4 data in 2 or 4 columns then we should put 2 or 4 td tags in a tr tags.-->
+        <h1>BM. Zahidul Islam</h1>
+        <em>Prefessional <strong>Full stack web-developer</strong> and Motivational speaker.<br>
+          Dhaka, Bangladesh.</em>
+        <!-- we always should use en tag instead of i tag to italicize coz if we italicise by only i tag it only means to italiciz but if we use em tag it means we emphacise it to have stressed along with making italic. Alongside, we should use strong tag instead of b tag coz b tag only makes bold but strong tag signifies the importance -->
+        <p>This is BM. Zahidul Islam (zahid) and I am learning web-development with London App Brewery, Udemy and aim to be a successful full stack web-developer. I am learning with Angela Yu and she is awesome in teaching. I am very hopefull and excited. I need all of your prayers to be successful.</p>
+      </td>
+    </tr>
+  </table> <!-- Table tag. Table ending Tag. If a strating tag then there must be a closing tag -->
+  <hr> <!-- this is used to insert a horizontal line -->
+  <h2>Education</h2>
+  <ul>
+    <!-- for unordred list see w3 school unordred list in details with example. -->
+    <li>Masters Degree.</li>
+    <ul>
+      <li>Masters Degree in English from Bangladesh Natonal University in 2016.</li>
+    </ul>
+  </ul>
+  <ul>
+    <li>Bachalor Degree.</li>
+    <ul>
+      <li>Bachalor Degree in English from Bangladesh National University in 2015.</li>
+    </ul>
+  </ul>
+  <hr>
+  <h3>Work Experiences</h3>
+  <p>
+  <table>
+    <thead>
+      <!-- in a thead tags we put table header to show the table heading in bold. Th or table header always put in tr tags. as many as we need table heading we should use TH tags that more time. here we need 2 headings and we used two TH tags in TR tags in thead/table head. -->
+      <tr>
+        <th>Dates</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- in tbody/table body we show table/structured data in HTML. In a table body generally there are two types of tags. TR (for defining/showing row) and TD (for defining/showing data in column) tags. -->
+      <tr>
+        <td>Dec, 2016 to June, 2017</td>
+        <td>Trainee Officer, Supply Chain Management Department. Ananta Group.</td>
+      </tr>
+      <tr>
+        <td>July, 2017 to December 2019</td>
+        <td>Officer, Supply Chain Management Department. Ananta Group.</td>
+      </tr>
+      <tr>
+        <td>January, 2020 to May, 2020</td>
+        <td>Junior Merchandiser, H&M Marchandising Team, Ananta Group.</td>
+      </tr>
+    </tbody>
+  </table>
+  </p>
+  <hr>
+  <p>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tbody>
+      <tr>
+        <!-- in a row we need to show 4 data in 4 columns and we used 4 td tags in a tr tag. see below in this tr starting and closing tags.-->
+        <td>HTML 5</td>
+        <td>☆☆☆☆</td>
+
+        <td>CSS 3</td>
+        <td>☆☆</td>
+      </tr>
+      <tr>
+        <td>BOOTSTRAP 4</td>
+        <td>☆</td>
+
+        <td>JAVASCRIPT ES6</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>DOCUMENT OBJECT MODEL (DOM)</td>
+        <td>☆</td>
+
+        <td>JQUERY</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>THE UNIX COMMAND LINE</td>
+        <td>☆</td>
+
+        <td>GIT GITHUB AND VERSION CONTROL</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>NODE.JS</td>
+        <td>☆</td>
+
+        <td>EXPRESS.JS</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>APPLICATION PROGRAM INTERFACES (APIS)</td>
+        <td>☆</td>
+
+        <td>EJS</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>DATABASE FUNDAMENTALS</td>
+        <td>☆</td>
+
+        <td>SQL DATABASES</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>NOSQL DATABASES WITH MONGODB AND MONGOOSE</td>
+        <td>☆</td>
+
+        <td>DEPLOYMENT</td>
+        <td>☆</td>
+      </tr>
+      <tr>
+        <td>BUILDING RESTful APIs</td>
+        <td>☆</td>
+
+        <td>AUTHENTICATION and SECURITY</td>
+        <td>☆</td>
+      </tr>
+      <tre>
+        <td>REACT.JS</td>
+        <td>☆</td>
+        </tr>
+    </tbody>
+  </table>
+  </p>
+  <a href="Hobbies.html">Hobby</a>
+  <a href="Contact.html">Contact Information</a>
+</body>
+
+</html>
